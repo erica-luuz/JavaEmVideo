@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ControleRemoto controle = new ControleRemoto();
+        controle.ligar();
+        controle.maisVolume();
+        controle.play();
+        controle.abrirMenu();
+        controle.fecharMenu();
+
     }
 }
