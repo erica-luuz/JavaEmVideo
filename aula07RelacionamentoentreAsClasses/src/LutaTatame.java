@@ -4,5 +4,8 @@ public interface LutaTatame {
     public abstract void ganharLuta();
     public abstract void perderLuta();
     public abstract void empatarLuta();
+    public abstract void marcarLuta();
+    public abstract void
+
 
 }
